@@ -26,6 +26,11 @@ public:
 	{
 		cout << a.vesh * b.vesh - a.mnim * b.mnim << " + " << a.mnim * b.vesh - b.mnim * a.vesh << " i";
 	}
+
+	void del(Complex a, Complex b)
+	{
+		cout << (a.vesh * b.vesh + a.mnim * b.mnim) / (b.vesh * b.vesh + b.mnim * b.mnim) << (b.mnim * a.vesh - a.vesh * b.mnim) / (b.vesh * b.vesh + b.mnim * b.mnim);
+	}
 };
 
 
