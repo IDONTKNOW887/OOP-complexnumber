@@ -1,18 +1,21 @@
 ﻿#include <iostream>
 using namespace std;
 
-struct Drob
+class Complex
 {
-	int chis;
-	int znam;
-	void output()
+	int mnim;
+	float vesh;
+public:
+	Complex(float a, int b) 
 	{
-		float c = 0;
-		c = chis / znam;
-		cout << c;
+		vesh = a; 
+		mnim = b; 
 	}
-
-
+	
+	void sum(Complex a, Complex b)
+	{
+		cout <<
+	}
 };
 
 
@@ -20,6 +23,6 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	srand(time(NULL));
-	Drob a{2, 3};
-	a.output();
+	Complex a(5);
+
 }
