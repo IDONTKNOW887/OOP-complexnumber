@@ -7,8 +7,12 @@ struct Drob
 	int znam;
 	void output()
 	{
-		cout << chis * znam;
+		float c = 0;
+		c = chis / znam;
+		cout << c;
 	}
+
+
 };
 
 
@@ -17,5 +21,5 @@ int main()
 	setlocale(LC_ALL, "rus");
 	srand(time(NULL));
 	Drob a{2, 3};
-
+	a.output();
 }
