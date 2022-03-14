@@ -11,6 +11,14 @@ public:
 		vesh = a; 
 		mnim = b; 
 	}
+
+	void input(Complex a, Complex b)
+	{
+		cout << "Введите первое число: ";
+		cin >> a;
+		cout << "Введите второе число: ";
+		
+	}
 	
 	void sum(Complex a, Complex b)
 	{
@@ -38,5 +46,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	srand(time(NULL));
-
+	float a;
+	int b;
+	sum();
 }
